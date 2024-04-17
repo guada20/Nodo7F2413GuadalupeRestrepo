@@ -1,0 +1,83 @@
+.body{
+    background-color: #DAE6CC;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.title h1{
+    font-family: 'Fredoka One',cursive;
+}
+
+
+.nav ul li a{
+    color: black;
+    font-weight: bold;
+    font-family: 'Fredoka One',cursive;
+    
+ }
+.nav ul li a:hover{
+    color: black;
+    font-weight: 700;
+    background-color: #BD938A;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    border-bottom: white outset 3px;
+}
+.container{
+    width: 100%;
+    flex: 1; 
+}
+.information{
+    color: black;
+    font-family: 'Fredoka One',cursive;
+    height:auto ;
+    width: 500px;
+    float: left;
+}
+.information p{
+    font-size: 20px;
+}
+.picture1{
+    height:auto ;
+    width: 500px;
+    float: right;
+}
+.containerh{
+    width: 100%;
+    flex: 1; 
+}
+.list{
+    color: black;
+    font-family: 'Fredoka One',cursive;
+    height:auto ;
+    width: 400px;
+    float: left;
+}
+.list h1,h4{
+    color: black;
+    font-family: 'Fredoka One',cursive;
+}
+.list h4{
+    font-size: 24px;
+}
+.imgs{
+    height:auto ;
+    width: 700px;
+    float: right;
+}
+.footer{
+    background-color: #BD938A;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.enlaces a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.enlaces a:hover {
+    text-decoration: underline;
+}
