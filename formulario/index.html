@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="description" content="Formulario de incripción para conocer la carrera que desea estudiar el usuario">
+    <meta name="author" content="Nombre del autor">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" method="">
+        <div class="container">
+            <h1>Formulario de Inscripción</h1>
+            <p>Formulario de Inscripción para la carrera que deseas estudiar, los campos con <strong>(*)</strong> son campos requeridos. </p>
+            <div class="info1">
+              <label for="name">Nombre* : </label>
+              <input type="text" id="name" name="name" placeholder="Ingrese su Nombre" required>
+              <br>
+              <label for="lastname">Apellido* : </label>
+              <input type="text" id="lastname" name="lastname" placeholder="Ingrese su Apellido" required>
+              <br>
+              <label for="email">Correo electrónico* : </label>
+              <input type="email" id="email" name="email" placeholder="Ingrese Correo Electrónico" required>
+              <br>
+              <label for="adress">Dirección : </label>
+              <input type="text" id="adress"name="adress" placeholder="Ingrese su Dirección" >
+            </div>
+            <div class="select1"> 
+               <label for="departamentos">Departamento : </label>
+               <select name="optionsD" id="optionsD"  >
+                   <option value="" disabled selected hidden>Selecciona Una Opción</option>
+                   <option value="opcion1">Amazonas</option>
+                   <option value="opcion2">Antioquia</option>
+                   <option value="opcion3">Arauca</option>
+                   <option value="opcion4">Atlántico</option>
+                   <option value="opcion5">Bolivar</option>
+                   <option value="opcion6">Boyacá</option>
+                   <option value="opcion7">Caldas</option>
+                   <option value="opcion8">Caquetá</option>
+                   <option value="opcion9">Casanare</option>
+                   <option value="opcion10">Cauca</option>
+                   <option value="opcion11">Cesar</option>
+                   <option value="opcion12">Chocó</option>
+                   <option value="opcion13">Córdoba</option>
+                   <option value="opcion14">Cundinamarca</option>
+                   <option value="opcion15">Guainía</option>
+                   <option value="opcion16">Guaviare</option>
+                   <option value="opcion17">Huila</option>
+                   <option value="opcion18">La Guajira</option>
+                   <option value="opcion19">Magdalena</option>
+                   <option value="opcion20">Meta</option>
+                   <option value="opcion21">Nariño</option>
+                   <option value="opcion22">Norte De Santander</option>
+                   <option value="opcion23">Putumayo</option>
+                   <option value="opcion24">Quindío</option>
+                   <option value="opcion25">Risaralda</option>
+                   <option value="opcion26">San Andrés y Providencia</option>
+                   <option value="opcion27">Santander</option>
+                   <option value="opcion28">Sucre</option>
+                   <option value="opcion29">Tolima</option>
+                   <option value="opcion30">Valle Del Cauca</option>
+                   <option value="opcion31">Vaupés</option>
+                   <option value="opcion32">Vichada</option>
+               </select>
+               <br>
+               <label for="country">País* : </label>
+               <input type="text" id="country"name="country" placeholder="Ingrese Su País"  required>
+               <br>
+               <label for="phone">Numero De Contacto* : </label>
+               <input type="tel" id="phone"name="phone" placeholder="Ingrese # de Contacto" maxlength="10"  required>
+               <br>
+               <label for="description">Descripción personal : </label>
+               <br>
+               <textarea name="description" id="description" cols="50" rows="5" placeholder="Ingrese una Descripción Personal Corta" maxlength="300"></textarea>
+            </div>
+   
+            <div class="select2">
+               <label for="OptionC">Inscripción Carrera* : </label>
+               <select name="OptionC" id="OptionC" required>
+                   <option value="" disabled selected hidden>Selecciona Una Opción</option>
+                   <option value="opcion1">JOBS TO BE DONE</option>
+                   <option value="opcion2">CLOUD NATIVE</option>
+                   <option value="opcion3">FRONTEND</option>
+                   <option value="opcion4">BACKEND</option>
+                   <option value="opcion5">FUNDAMENTALS</option>
+                   <option value="opcion6">PYTHON</option>
+                   <option value="opcion7">MARKETING DIGITAL</option>
+                   <option value="opcion8">UNDAMENTALS DATA</option>
+                   <option value="opcion9">INTRODUCCIÓN A JAVA</option>
+                   <option value="opcion10">BUSINESS ANALYST</option>
+               </select>
+               <br>
+               <label for="modal">Modalidad* : </label>
+               <select name="modal" id="modal" required>
+                   <option value="" disabled selected hidden>Selecciona Una Opción</option>
+                   <option value="opcion1">Presencial</option>
+                   <option value="opcion2">Remoto</option>
+               </select>
+               <br>
+               <label for="optioR">¿Estás Trabajando? : </label>
+               <br>
+               <input type="radio" id="opcion1" name="optionR" value="opcion1">
+               <label for="option1">Si</label>
+               <br>
+               <input type="radio" id="opcion2" name="optionR" value="opcion2">
+               <label for="option2">No</label>
+               <br>
+            </div>
+            <div class="enviar">
+               <input type="submit" value="enviar">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
