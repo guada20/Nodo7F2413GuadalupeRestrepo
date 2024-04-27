@@ -3,7 +3,9 @@ body{
     height: 100%;
     display: flex;
     background-color: black;
+    text-align: center;
     justify-content: center;
+    align-items: center;
 }
 .container{
     width: 70%;
