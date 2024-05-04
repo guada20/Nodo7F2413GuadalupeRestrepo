@@ -1,0 +1,175 @@
+body{
+    overflow-x: auto;
+    background: #E3CCD6;
+}
+.container{
+    width: 100%;
+    max-width: 1242px;
+    flex: 1; 
+}
+.title{
+    color:black;
+    text-align:center;
+    margin:7px 2px 8px 10px;
+    font-family: 'Fredoka One',cursive;
+}
+.review {
+    color:black;
+    padding: 5px 2px 2px 2px;
+    margin:2px 2px 2px 15px;
+    height:300px;
+    width: 100%;
+  }
+.review p{
+    color: black;
+    font: 150% sans-serif;
+    text-align:center;
+    font-size:25px;
+    width:500px;
+    float: left;
+    height:300px;
+  }
+.review img{
+    color: black;
+    font-family: 'Fredoka One',cursive;
+    padding: 2px 2px 2px 2px;
+    border: 3px solid #B23243;
+    float: right;
+    width:500px;
+    height:300px;
+  }
+.Discos{
+    color: black;
+    margin:2px 5px 2px 2px;
+    padding: 5px 2px 4px 2px;
+    font-family: 'Fredoka One',cursive;
+    height:600px;
+    width: 100%;
+}
+.Discos ol,li{
+    padding:5px 1px 1px 1px;
+    margin:1px 5px 1px 1px;
+    text-align:start;
+    color: black;
+    font: 150% sans-serif;
+    font-size:18px;
+    width: 295px;
+    float:right;
+    list-style-type:square;
+}
+.pictures{
+    margin:2px 2px 2px 15px;
+    background: #B23243;
+    padding-left: 15px;
+    padding-top: 6px;
+    float:left;
+    width:790px;
+  }
+.top{
+    color: black;
+    padding: auto;
+    font-family: 'Fredoka One',cursive;
+    height:450px;
+    width: 100%;
+    margin-top: 3px;
+ }
+.top h1{
+    text-align:center;
+}
+.lista2{
+    text-align:center;
+    color: black;
+    font: 150% sans-serif;
+    width:400px;
+    float:left;
+}
+.li2{
+    list-style-type:none;
+    font-size: 25px;
+    width: 400px;
+    height: 59px;
+}
+.audios{
+    color: black;
+    padding: 4px 4px 2px 2px;
+    font-family: 'Fredoka One',cursive;
+    text-align:center;
+    font-size:22px;
+    width:300px;
+    float: right;
+    height:50px;
+    margin:5px;
+    padding:5px;
+}
+.spotify{
+    align-items: center;
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+.pie{
+    background: #000;
+    height: 100%;
+    max-width: 1230px;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-left: 9px;
+    text-align: center;
+}
+.icon1 {
+    color: #fff;
+    font-size:60px ;
+    margin-left:150px;
+    margin-top: 25px;
+    height: 100%;
+    align-items: stretch;
+    float: left;
+}
+.icon1:hover{
+    border-bottom: 2px solid #B23243;
+    height: 70px;
+} 
+.icon2 {
+    color: #fff;
+    font-size:60px ;
+    margin: 10px;
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-right: 170px;
+    height: 100%;
+    align-items: center;
+    float: none; 
+    display: inline-block;
+}
+.icon2:hover{
+    border-bottom: 2px solid #B23243;
+    height: 68px;
+} 
+.icon3 {
+    color: #fff;
+    font-size:60px;
+    margin-left:15px;
+    margin-top: 25px;
+    height: 100%;
+    align-items: center;
+    float: none; 
+    display: inline-block;
+}
+.icon3:hover{
+    border-bottom: 2px solid #B23243;
+    height: 70px;
+} 
+.icon4 {
+    color: #fff;
+    font-size:60px;
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-right: 150px;
+    height: 100%;
+    align-items: center;
+    float:right;
+}
+.icon4:hover{
+    border-bottom: 2px solid #B23243;
+    height: 70px;
+} 
