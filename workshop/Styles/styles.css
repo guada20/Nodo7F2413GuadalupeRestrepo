@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.desktop-container,
+.mobile-container {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.desktop-container iframe,
+.mobile-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Mostrar  en pantallas grandes*/
+@media(min-width: 768px) {
+    .desktop-container {
+        display: block;
+    }
+}
+
+/* Mostrar móvil en pantallas pequeñas */
+@media(max-width: 767px) {
+    .mobile-container {
+        display: block;
+    }
+}

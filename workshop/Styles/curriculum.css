@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /*  espacio entre las secciones */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 29px;
+}
+
+.titlef, .infop, .infoed, .habilitiesr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* espacio entre las cajitas */
+}
+
+.titlef > div, .infop > div, .infoed > div, .habilitiesr > div {
+    flex: 1;
+    min-width: 300px;
+}
+
+.imgc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgc img {
+    border-radius: 50%;
+    border: solid #000 4px;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    max-width: 330px;
+    object-fit: cover;
+}
+
+.infoheader, .perfil, .expe, .education, .formacionc, .habilidades, .referencias {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil p {
+    font-size: 1.5em;
+    text-align: center; 
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
+
+.enlaces a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.icon1, .icon2, .icon3 {
+    color: #fff;
+    font-size: 24px; 
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover {
+    border-bottom: 2px solid #B23243;
+}
+
+/* Móvil */
+@media (max-width: 768px) {
+    .titlef, .infop, .infoed, .habilitiesr {
+        flex-direction: column;
+    }
+
+    .imgc img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .enlaces a {
+        font-size: 20px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .titlef, .infop, .infoed, .habilitiesr {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .titlef > div, .infop > div, .infoed > div, .habilitiesr > div {
+        flex: 1 1 45%; /* Ancho de las tablets */
+        min-width: 300px;
+    }
+
+    .imgc img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .enlaces a {
+        font-size: 20px;
+    }
+}

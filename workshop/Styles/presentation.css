@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FCE8F5;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.content {
+    flex: 1; 
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.picture1 img {
+    max-width: 100%;
+    height: 80%;
+}
+
+.information {
+    max-width: 550px;
+}
+
+.information p {
+    font-size: 150%;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff; 
+}
+
+.enlaces a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff; 
+}
+
+.icon1, .icon2, .icon3 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover {
+    border-bottom: 2px solid #B23243;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .information {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .enlaces a {
+        display: inline-block;
+        margin: 10px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .information {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .information p {
+        font-size: 130%;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .enlaces a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 20px;
+    }
+
+    .icon1, .icon2, .icon3 {
+        font-size: 22px;
+    }
+}
